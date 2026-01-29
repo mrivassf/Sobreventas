@@ -542,11 +542,7 @@
                         </td>
 
                         <td>
-                            <div class="tooltip">
-                                <div class="toggle disabled off"></div>
-                                <span class="tooltip-text">No se puede cambiar el estado de sobreventas no
-                                    vigentes</span>
-                            </div>
+                            <div class="toggle off"></div>
                         </td>
                         <td>
                             <div class="action-menu">
@@ -664,12 +660,7 @@
             });
         });
 
-        // Simular tooltip para el toggle deshabilitado
-        document.querySelectorAll('.toggle.disabled').forEach(toggle => {
-            toggle.addEventListener('mouseenter', function () {
-                console.log('Esta sobreventa no está vigente y no puede ser editada');
-            });
-        });
+
     </script>
 </body>
 
